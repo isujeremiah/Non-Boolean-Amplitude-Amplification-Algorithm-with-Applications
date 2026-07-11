@@ -5,7 +5,7 @@ This notebook presents an enhanced version of the generalized Grover’s algorit
 
 This notebook implements the **Non-Boolean Quantum Amplitude Amplification Algorithm** from [Prasanth Shyamsundar (2021)](https://arxiv.org/abs/2102.04975), with an application to **Quantum Value at Risk (QVaR)** for portfolio risk assessment. The Non-Boolean Quantum Amplitude Amplification is an advanced extension of Grover's algorithm that generalizes quantum search to support:
 - **Multiple marked states** (generalized Grover)
-- **Non-boolean objective functions** $\varphi: \{0,1, \dots, N-1\} \to [0,1]$, where $N = 2^n$ for a given non-negative integer $n$. In this notebook $\varphi(x) = \pi f(x)$, where $f(x) = \sin^2(x)$.
+- **Non-boolean objective functions** $\varphi:$ `{0,1, \dots, N-1\}` $\to [0,1]$, where $N = 2^n$ for a given non-negative integer $n$. In this notebook $\varphi(x) = \pi f(x)$, where $f(x) = \sin^2(x)$.
 - **Alternating odd/even iterations** that yield optimal amplification behavior.
 
 The **Quantum Value at Risk** estimates portfolio loss probability across $2^n$ market scenarios using quantum amplitude amplification:
