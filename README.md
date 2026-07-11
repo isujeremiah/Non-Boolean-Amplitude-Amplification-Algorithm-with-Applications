@@ -76,7 +76,8 @@ import sympy as sp
 
 ## References
 
-1. [Prasanth Shyamsundar (2021)](https://arxiv.org/abs/2102.04975) - Non-Boolean Quantum Amplitude Amplification
+1. [Prasanth Shyamsundar (2021)](https://arxiv.org/abs/2102.04975) - Non-Boolean Quantum Amplitude Amplification and
+Quantum Mean Estimation
 2. [Grover's Algorithm](https://en.wikipedia.org/wiki/Grover%27s_algorithm)
 
 ## Notes
